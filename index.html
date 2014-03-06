@@ -20,20 +20,28 @@
       text-align: center;
     }
 
-    h1 {
-      font-size: 4em;
-    }
-
     .links {
       padding-top: 20px;
       list-style: none;
     }
 
+    .tagline {
+      display: none;
+    }
+
     @media (min-width: 700px) {
+      h1 {
+        font-size: 4em;
+      }
+
       .links li {
         display: inline-block;
         padding: 5px;
         font-size: 1.5em;
+      }
+
+      .tagline {
+        display: block;
       }
     }
 
